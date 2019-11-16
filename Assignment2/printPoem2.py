@@ -83,3 +83,29 @@ else:
 List = [10, 20, 4, 45, 99]
 print(max(List))
 99
+
+
+english = float(input("enter your english maraks"))
+urdu =float(iinput("enter your urdu marks"))
+physics =float(iinput("enter your physics marks"))
+math =float(iinput("enter your math marks"))
+islamiat =float(iinput("enter your islamiat marks"))
+total = english+urdu+phyics+math+islamiat
+percentage =(total/500)*100
+if percentage>100 or percentage<0 :
+    print("please chk your input and write grade")
+else:
+     if percentage >=80:
+    print("Your grade is A",percentage)
+elif percentage >=70:
+    print("your grade A",percentage)
+elif percentage >=70:
+    print("your grade A",percentage)
+elif percentage >=60:
+    print("your grade B",percentage)
+elif percentage >=50:
+    print("your grade C",percentage)
+elif percentage >=40:
+    print("your grade D",percentage)
+else:
+    print("you are fail")
